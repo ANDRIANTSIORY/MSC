@@ -16,9 +16,9 @@ For each mode of $\mathcal{T}$, this method studies each matrix slice. We select
 ![an image](msc.png)
 
 **Theorem** : Let $|J_1|=l$, assume that $\sqrt{\epsilon}\le \frac{1}{m_1-l}$. $\forall i,n\in J_1 $, for $\lambda = \mathcal{O}(\mu)$ we have
-		$$
-				|d_i - d_{n}| \le l\frac{\epsilon}{2} + \sqrt{\log(m_1-l)}
-		$$
+		
+				$$ |d_i - d_{n}| \le l\frac{\epsilon}{2} + \sqrt{\log(m_1-l)} $$
+				
 			with probability at least $1-e(m_1-l)^{-c_1}$ with a constant $c_1>0$.
 
 
