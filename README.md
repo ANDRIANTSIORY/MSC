@@ -27,7 +27,7 @@ where  $d_i =  \sum_{j\in [m_1]} c_{i,j} = \sum_{j\in [m_1]} | \langle \tilde\la
 
 [1] Andriantsiory, D.F., Ben Geloun, J., Lebbah, M.: Multi-slice clustering for 3-order tensor data - supplementary material. arXiv preprint arXiv:2109.10803 (2021)
 
-[2] Andriantsiory, D.F., Geloun, J.B., Lebbah, M.: Multi-slice clustering for 3-order tensor. In: 2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA), pp. 173–178 (2021)
+[2] Andriantsiory, D.F., Ben Geloun, J., Lebbah, M.: Multi-slice clustering for 3-order tensor. In: 2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA), pp. 173–178 (2021)
 
 
 
