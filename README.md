@@ -19,10 +19,10 @@ For each mode of $\mathcal{T}$, this method studies each matrix slice. We select
 
 $$ |d_i - d_{n}| \le l\frac{\epsilon}{2} + \sqrt{\log(m_1-l)} $$ 
 
-with probability at least $ 1 - e(m_1 - l)^{-c_1} $ with a constant $ c_1 > 0 $.
+with probability at least $1-e(m_1-l)^{-c_1}$ with a constant $c_1 > 0$.
 
 
-where 	$d_i =  \sum_{j\in [m_1]} c_{i,j} = \sum_{j\in [m_1]} | \langle \tilde\lambda_i \mathbf{v}_i,\tilde\lambda_j \mathbf{v}_j \rangle| . $
+where  $d_i =  \sum_{j\in [m_1]} c_{i,j} = \sum_{j\in [m_1]} | \langle \tilde\lambda_i \mathbf{v}_i,\tilde\lambda_j \mathbf{v}_j \rangle| . $
 
 
 [1] Andriantsiory, D.F., Ben Geloun, J., Lebbah, M.: Multi-slice clustering for 3-order tensor data - supplementary material. arXiv preprint arXiv:2109.10803 (2021)
