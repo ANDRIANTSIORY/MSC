@@ -74,21 +74,27 @@ def find_adjusted_rand_score(vrai, estimation):
 # TOp eigenvector  and eigenvalue of square matrix 
 # Rayleigh quotient method
 
-def rayleigh_power_iteration(A, num_simulations: int):
+def rayleigh_power_iteration(A, num_simulations: int, eps = 0.000001):
     # Ideally choose a random vector
     # To decrease the chance that our vector
     # Is orthogonal to the eigenvector
-    b_k = np.random.rand(A.shape[1])
+    a = np.random.rand(A.shape[1])
 
     for _ in range(num_simulations):
         # calculate the matrix-by-vector product Ab
-        b_k1 = np.dot(A, b_k)
+        b_k1 = np.dot(A, a)
 
         # calculate the norm
         b_k1_norm = np.linalg.norm(b_k1)
 
         # re normalize the vector
         b_k = b_k1 / b_k1_norm
+
+        # test the convergence
+        if np.linalg.norm(b_k - a) <= eps :
+            break
+        else :
+            a = b_k
 
     mu = np.dot(np.dot(b_k.T, A),b_k)
 
